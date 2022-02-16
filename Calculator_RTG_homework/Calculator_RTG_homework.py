@@ -1,6 +1,6 @@
 
 while True:
-    operator = input("1 Addition \n2 Subtraction \n3 Multiplication \n4 Devision \n5 Rasing power \n\nQ/q to Exit \n\n :")
+    operator = input("1 Addition \n2 Subtraction \n3 Multiplication \n4 Devision \n5 Rasing power \n6 Sqr root \n\nQ/q to Exit \n\n :")
 
     if operator == 'q'  or operator == 'Q':
         break
@@ -22,5 +22,7 @@ while True:
             print("cannot devide by zero!")
     elif operator == "5":
         print(x**y)
+    elif operator == "6":
+        print(x**0.5)
     else:
         print("Can't do that, pls try again")
