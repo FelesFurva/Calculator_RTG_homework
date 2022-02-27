@@ -64,7 +64,7 @@ while True:
             except ValueError:
                 print("Please enter a number")
             else:
-                print("The squer of", x, "=", math.pow(x, 2))
+                print(x, "squred =", math.pow(x, 2))
                 break
 
     elif operator == "6":
@@ -76,7 +76,7 @@ while True:
                 print("Please enter a number")
             else:        
                 if x > 0:
-                    print(math.sqrt(x))
+                    print("Square root of", x, "is", math.sqrt(x))
                     break
                 else:
                     print("Must be a positve integer \n")
